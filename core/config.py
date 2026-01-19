@@ -20,8 +20,5 @@ DB_CONFIG = {
     "password": DB_PASS
 }
 
-EMAIL_USER = os.getenv("EMAIL_USER")
-EMAIL_PASS = os.getenv("EMAIL_PASS")
-
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "admin"
