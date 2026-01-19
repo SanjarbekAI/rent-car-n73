@@ -20,5 +20,5 @@ DB_CONFIG = {
     "password": DB_PASS
 }
 
-ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD = "admin"
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
